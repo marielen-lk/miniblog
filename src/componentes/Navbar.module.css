@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    flex-direction: column; /* Adicione esta propriedade para alinhar os itens na vertical */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* Sombra abaixo da barra de navegação - Preto com opacidade*/
+    box-shadow: rgba(95, 58, 2, 0.15) 0px -2px 10px 0px;
+    /* alinhar itens ao centro */
+    align-items: center;
+    /* .05 baixo e laterias 2em */
+    padding: .5em 2em;
+
+}
+.brand {
+    font-size: 1.2em;
+}
+.brand span {
+    font-weight: 900;
+    text-transform: uppercase ;
+}
+.links_list{
+    display: flex;
+    list-style: none;
+}
+.links_list li {
+    margin-right: 1em;
+}
+.links_list li a{
+    padding: .4em .6em;
+}
+.active {
+    background-color: rgb(241, 151, 16);
+    color: white;
+}
+
+    

@@ -1,0 +1,27 @@
+.message textarea {
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    resize: both; /* Permite redimensionar vertical e horizontalmente */
+    min-height: 100px;
+    max-height: 300px;
+}
+
+.textMessage {
+    text-align: left;
+}
+.botao {
+    background-color: orange; /* Altera a cor do fundo do botão para laranja */
+    color: white; /* Define a cor do texto para branco */
+    border: none;
+    padding: 8px 20px 20px 15px;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .botao:hover {
+    background-color: darkorange; /* Altera a cor de fundo quando o cursor está sobre o botão */
+  }

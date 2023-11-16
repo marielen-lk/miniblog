@@ -1,0 +1,10 @@
+.social-icons {
+    display: flex;
+    justify-content: space-around; /* Espaçamento entre os ícones */
+    align-items: center;
+  }
+  
+  .icon {
+    font-size: 30px; /* Tamanho dos ícones */
+    margin: 0 10px; /* Espaçamento horizontal entre os ícones */
+  }

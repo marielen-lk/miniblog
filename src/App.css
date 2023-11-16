@@ -1,0 +1,11 @@
+.container{
+  /* altura mínima de 60% de tela do usuario*/
+  min-height: 60vh;
+  /* Afastar os componentes inferiores em relacao ao container. */
+  margin-bottom: 5em;
+}
+h1{
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:orange;
+}

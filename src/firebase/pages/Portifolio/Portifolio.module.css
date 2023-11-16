@@ -1,0 +1,32 @@
+/* Portifolio.module.css */
+
+.container {
+    /* Estilos para o contêiner principal, se necessário */
+  }
+  
+  .imageRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Espaçamento entre as linhas */
+  }
+  
+  .portfolioImage {
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+    object-fit: cover;
+  }
+  
+  .firstRow {
+    /* Estilos para a primeira linha */
+  }
+  
+  .secondRow {
+    /* Estilos para a segunda linha */
+  }
+  
+  .thirdRow {
+    /* Estilos para a terceira linha */
+  }
+  

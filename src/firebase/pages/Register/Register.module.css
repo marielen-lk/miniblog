@@ -1,0 +1,27 @@
+.register{
+    text-align: center;
+}
+.register p{
+    color: #aaa;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.botao {
+    background-color: orange; /* Altera a cor do fundo do botão para laranja */
+    color: white; /* Define a cor do texto para branco */
+    border: none;
+    padding: 8px 20px 20px 15px;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .botao:hover {
+    background-color: darkorange; /* Altera a cor de fundo quando o cursor está sobre o botão */
+  }

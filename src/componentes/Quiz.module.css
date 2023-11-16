@@ -1,0 +1,86 @@
+/* No seu arquivo About.module.css ou em um arquivo separado de estilos para o Quiz */
+.quiz-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .options-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .option {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .option:hover {
+    background-color: #e0e0e0;
+}
+    /* No seu arquivo About.module.css ou em um arquivo separado de estilos para o Quiz */
+.correct-answer {
+    background-color: #c8e6c9; /* Verde para respostas corretas */
+  }
+  
+  .incorrect-answer {
+    background-color: #ffcdd2; /* Vermelho para respostas incorretas */
+  }
+/* No seu arquivo About.module.css ou em um arquivo separado de estilos para o Quiz */
+.result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+/* No seu arquivo About.module.css ou em um arquivo separado de estilos para o Quiz */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Aplicar a animação a elementos específicos, se necessário */
+  .quiz-container,
+  .result {
+    animation: fadeIn 0.5s ease;
+  }
+
+.options-list {
+    list-style: none; /* Remove os pontos da lista */
+    padding: 0;
+  }
+  
+  .option {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+  }
+  .option:hover {
+    background-color: #e0e0e0;
+}
+
+
+  
+  

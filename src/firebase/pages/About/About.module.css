@@ -1,0 +1,39 @@
+.about{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about p{
+    color: #aaa;
+    margin-bottom: 2em;
+}
+.about a{
+    display: block;
+    margin-top: 15px;
+    padding: 10px 15px;
+}
+
+.options-list {
+  padding: 0;
+}
+
+.option {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex; /* Adiciona layout de caixa */
+  align-items: center; /* Alinha itens verticalmente no centro */
+}
+
+.option:hover {
+  background-color: #e0e0e0;
+}
+
+.option-text {
+  margin-left: 10px; /* Adiciona espaço entre a caixa e o texto da opção */
+}

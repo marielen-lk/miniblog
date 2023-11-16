@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .box {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Reduzindo a largura máxima para um espaço menor */
+    width: 100%;
+  }
+  
+  h2 {
+    font-size: 20px; /* Diminuindo o tamanho da fonte para reduzir o espaço ocupado */
+    margin-top: 10px; /* Reduzindo a margem superior */
+    margin-bottom: 5px; /* Reduzindo a margem inferior */
+    text-align: center;
+  }
+  
+  p {
+    font-size: 14px; /* Diminuindo o tamanho da fonte */
+    line-height: 1.4; /* Reduzindo o espaçamento entre linhas para compactar o texto */
+    margin-bottom: 10px; /* Reduzindo a margem inferior */
+    margin-left:70px;
+    margin-right: 80px;
+  }
+  .bankLogos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .bankLogos a {
+    max-width: 150px; /* Define o tamanho máximo para todas as imagens */
+    height: auto;
+    margin: 0 10px; /* Adiciona margem entre as imagens */
+  }
+  
+  .bankLogos img {
+    width: 100%;
+    height: auto;
+  }
