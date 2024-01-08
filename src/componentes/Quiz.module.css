@@ -31,7 +31,7 @@
   .option:hover {
     background-color: #e0e0e0;
 }
-    /* No seu arquivo About.module.css ou em um arquivo separado de estilos para o Quiz */
+
 .correct-answer {
     background-color: #c8e6c9; /* Verde para respostas corretas */
   }
@@ -39,14 +39,14 @@
   .incorrect-answer {
     background-color: #ffcdd2; /* Vermelho para respostas incorretas */
   }
-/* No seu arquivo About.module.css ou em um arquivo separado de estilos para o Quiz */
+
 .result {
     margin-top: 20px;
     font-size: 24px;
     font-weight: bold;
     color: #333;
   }
-/* No seu arquivo About.module.css ou em um arquivo separado de estilos para o Quiz */
+
 @keyframes fadeIn {
     from {
       opacity: 0;
